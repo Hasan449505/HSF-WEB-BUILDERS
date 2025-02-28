@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>HSF WEB BUILDERS</title>
   <style>
-    body { 
+    body {
       margin: 0;
       font-family: 'Arial', sans-serif;
       line-height: 1.6;
@@ -14,7 +14,7 @@
       background-color: #f4f4f4;
     }
 
-    /* Snow Mountain Background */
+    /* Background */
     body::before {
       content: "";
       position: fixed;
@@ -32,7 +32,7 @@
     header {
       background: url('HSF .jpg') center center/cover no-repeat;
       color: white;
-      padding: 60px 40px;
+      padding: 80px 40px;
       text-align: center;
       animation: fadeIn 2s ease-out;
     }
@@ -42,8 +42,7 @@
       font-size: 3rem;
       font-family: 'Courier New', Courier, monospace;
       text-transform: uppercase;
-      letter-spacing: 5px;
-      animation: slideIn 1s ease-out;
+      letter-spacing: 3px;
     }
 
     header p {
@@ -51,7 +50,6 @@
       font-style: italic;
       font-family: 'Georgia', serif;
       margin: 10px 0;
-      animation: fadeIn 3s ease-out;
     }
 
     /* Navigation Bar */
@@ -68,7 +66,6 @@
       text-decoration: none;
       margin: 0 20px;
       font-size: 1.1rem;
-      font-family: 'Verdana', sans-serif;
       text-transform: uppercase;
       position: relative;
       padding: 5px 0;
@@ -86,14 +83,13 @@
       text-align: center;
       padding: 100px 20px;
       background: rgba(106, 17, 203, 0.6);
-      animation: slideIn 1.5s ease-out;
+      animation: fadeIn 3s ease-out;
     }
 
     .hero h1 {
       font-size: 4rem;
       margin-bottom: 20px;
       font-family: 'Brush Script MT', cursive;
-      animation: whirl 4s linear infinite;
     }
 
     .hero p {
@@ -101,7 +97,6 @@
       font-family: 'Georgia', serif;
       font-style: italic;
       letter-spacing: 2px;
-      animation: fadeIn 4s ease-out;
     }
 
     /* Services Section */
@@ -134,7 +129,6 @@
       padding: 30px;
       text-align: center;
       transition: transform 0.3s ease, box-shadow 0.3s ease;
-      font-family: 'Verdana', sans-serif;
     }
 
     .service:hover {
@@ -200,27 +194,6 @@
       }
       100% {
         opacity: 1;
-      }
-    }
-
-    @keyframes slideIn {
-      0% {
-        transform: translateY(-100px);
-      }
-      100% {
-        transform: translateY(0);
-      }
-    }
-
-    @keyframes whirl {
-      0% {
-        transform: rotate(0deg);
-      }
-      50% {
-        transform: rotate(360deg);
-      }
-      100% {
-        transform: rotate(720deg);
       }
     }
 
